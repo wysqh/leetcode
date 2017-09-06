@@ -1,0 +1,8 @@
+int main ( )
+{
+	float number = 0.334 ;
+	int a = 30 ;
+	int b = 40;
+	int c = a * b - number ;
+	return 0 ;
+}

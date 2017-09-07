@@ -1,0 +1,14 @@
+﻿生成启动时间为 2017-08-24 22:49:18。
+     1>项目“E:\Summary\Major\保研准备\T大暑期笔记\code-parts\Leetcode\P210\P210\P210.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>e:\summary\major\保研准备\t大暑期笔记\code-parts\leetcode\p210\p210\source.cpp(23): error C2146: 语法错误: 缺少“)”(在标识符“it”的前面)
+     1>e:\summary\major\保研准备\t大暑期笔记\code-parts\leetcode\p210\p210\source.cpp(23): error C2065: “it”: 未声明的标识符
+     1>e:\summary\major\保研准备\t大暑期笔记\code-parts\leetcode\p210\p210\source.cpp(23): error C3537: “auto”: 无法强制转换为包含“auto”的类型
+     1>e:\summary\major\保研准备\t大暑期笔记\code-parts\leetcode\p210\p210\source.cpp(23): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+     1>已完成生成项目“E:\Summary\Major\保研准备\T大暑期笔记\code-parts\Leetcode\P210\P210\P210.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.17

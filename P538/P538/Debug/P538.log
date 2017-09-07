@@ -1,0 +1,11 @@
+﻿生成启动时间为 2017-08-28 16:35:37。
+     1>项目“E:\Summary\Major\保研准备\T大暑期笔记\code-parts\Leetcode\P538\P538\P538.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>e:\summary\major\保研准备\t大暑期笔记\code-parts\leetcode\p538\p538\source.cpp(13): error C2864: “Solution::sum”: 只有静态常量整型数据成员才可以在类中初始化
+     1>已完成生成项目“E:\Summary\Major\保研准备\T大暑期笔记\code-parts\Leetcode\P538\P538\P538.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.38

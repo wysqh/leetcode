@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P500", "P500\P500.vcxproj", "{C5B32E97-4DF4-415F-8A4B-0C41587D2FFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5B32E97-4DF4-415F-8A4B-0C41587D2FFE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C5B32E97-4DF4-415F-8A4B-0C41587D2FFE}.Debug|Win32.Build.0 = Debug|Win32
+		{C5B32E97-4DF4-415F-8A4B-0C41587D2FFE}.Release|Win32.ActiveCfg = Release|Win32
+		{C5B32E97-4DF4-415F-8A4B-0C41587D2FFE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

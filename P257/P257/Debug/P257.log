@@ -1,0 +1,66 @@
+﻿生成启动时间为 2017-08-23 21:12:32。
+     1>项目“E:\Summary\Major\保研准备\T大暑期笔记\code-parts\Leetcode\P257\P257\P257.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>e:\summary\major\保研准备\t大暑期笔记\code-parts\leetcode\p257\p257\source.cpp(51): error C2784: “std::_Vb_iterator<_Alloc> std::operator +(_Alloc::difference_type,std::_Vb_iterator<_Alloc>)”: 未能从“std::string”为“std::_Vb_iterator<_Alloc>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(2204) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(2204) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(2204) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(2204) : 参见“std::operator +”的声明
+     1>e:\summary\major\保研准备\t大暑期笔记\code-parts\leetcode\p257\p257\source.cpp(51): error C2784: “std::_Vb_const_iterator<_Alloc> std::operator +(_Alloc::difference_type,std::_Vb_const_iterator<_Alloc>)”: 未能从“std::string”为“std::_Vb_const_iterator<_Alloc>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(2097) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(2097) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(2097) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(2097) : 参见“std::operator +”的声明
+     1>e:\summary\major\保研准备\t大暑期笔记\code-parts\leetcode\p257\p257\source.cpp(51): error C2784: “std::_Vector_iterator<_Myvec> std::operator +(_Vector_iterator<_Myvec>::difference_type,std::_Vector_iterator<_Myvec>)”: 未能从“std::string”为“std::_Vector_iterator<_Myvec>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(409) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(409) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(409) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(409) : 参见“std::operator +”的声明
+     1>e:\summary\major\保研准备\t大暑期笔记\code-parts\leetcode\p257\p257\source.cpp(51): error C2784: “std::_Vector_const_iterator<_Myvec> std::operator +(_Vector_const_iterator<_Myvec>::difference_type,std::_Vector_const_iterator<_Myvec>)”: 未能从“std::string”为“std::_Vector_const_iterator<_Myvec>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(278) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(278) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(278) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(278) : 参见“std::operator +”的声明
+     1>e:\summary\major\保研准备\t大暑期笔记\code-parts\leetcode\p257\p257\source.cpp(51): error C2784: “std::_String_iterator<_Mystr> std::operator +(_String_iterator<_Mystr>::difference_type,std::_String_iterator<_Mystr>)”: 未能从“std::string”为“std::_String_iterator<_Mystr>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(420) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(420) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(420) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(420) : 参见“std::operator +”的声明
+     1>e:\summary\major\保研准备\t大暑期笔记\code-parts\leetcode\p257\p257\source.cpp(51): error C2784: “std::_String_const_iterator<_Mystr> std::operator +(_String_const_iterator<_Mystr>::difference_type,std::_String_const_iterator<_Mystr>)”: 未能从“std::string”为“std::_String_const_iterator<_Mystr>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(288) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(288) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(288) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(288) : 参见“std::operator +”的声明
+     1>e:\summary\major\保研准备\t大暑期笔记\code-parts\leetcode\p257\p257\source.cpp(51): error C2784: “std::move_iterator<_RanIt> std::operator +(_Diff,const std::move_iterator<_RanIt> &)”: 未能从“std::string”为“const std::move_iterator<_RanIt> &”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(1947) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(1947) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(1947) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(1947) : 参见“std::operator +”的声明
+     1>e:\summary\major\保研准备\t大暑期笔记\code-parts\leetcode\p257\p257\source.cpp(51): error C2784: “std::_Array_iterator<_Ty,_Size> std::operator +(_Array_iterator<_Ty,_Size>::difference_type,std::_Array_iterator<_Ty,_Size>)”: 未能从“std::string”为“std::_Array_iterator<_Ty,_Size>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(1801) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(1801) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(1801) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(1801) : 参见“std::operator +”的声明
+     1>e:\summary\major\保研准备\t大暑期笔记\code-parts\leetcode\p257\p257\source.cpp(51): error C2784: “std::_Array_const_iterator<_Ty,_Size> std::operator +(_Array_const_iterator<_Ty,_Size>::difference_type,std::_Array_const_iterator<_Ty,_Size>)”: 未能从“std::string”为“std::_Array_const_iterator<_Ty,_Size>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(1662) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(1662) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(1662) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(1662) : 参见“std::operator +”的声明
+     1>e:\summary\major\保研准备\t大暑期笔记\code-parts\leetcode\p257\p257\source.cpp(51): error C2784: “std::reverse_iterator<_RanIt> std::operator +(_Diff,const std::reverse_iterator<_RanIt> &)”: 未能从“std::string”为“const std::reverse_iterator<_RanIt> &”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(1226) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(1226) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(1226) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(1226) : 参见“std::operator +”的声明
+     1>e:\summary\major\保研准备\t大暑期笔记\code-parts\leetcode\p257\p257\source.cpp(51): error C2784: “std::_Revranit<_RanIt,_Base> std::operator +(_Diff,const std::_Revranit<_RanIt,_Base> &)”: 未能从“std::string”为“const std::_Revranit<_RanIt,_Base> &”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(1031) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(1031) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(1031) : 参见“std::operator +”的声明
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(1031) : 参见“std::operator +”的声明
+     1>e:\summary\major\保研准备\t大暑期笔记\code-parts\leetcode\p257\p257\source.cpp(51): error C2676: 二进制“+”:“std::string”不定义该运算符或到预定义运算符可接收的类型的转换
+     1>已完成生成项目“E:\Summary\Major\保研准备\T大暑期笔记\code-parts\Leetcode\P257\P257\P257.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.03

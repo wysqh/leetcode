@@ -1,0 +1,32 @@
+﻿生成启动时间为 2017-05-08 22:07:10。
+     1>项目“E:\Summary\Code\Leetcode\DP9_01\DP9_01\DP9_01.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>e:\summary\code\leetcode\dp9_01\dp9_01\source.cpp(10): error C2664: “std::vector<_Ty>::vector(unsigned int,const std::vector<int> &)”: 不能将参数 2 从“std::vector<_Ty> *”转换为“const std::vector<_Ty> &”
+                 with
+                 [
+                     _Ty=std::vector<int>
+                 ]
+                 and
+                 [
+                     _Ty=int
+                 ]
+                 and
+                 [
+                     _Ty=int
+                 ]
+                 原因如下: 无法从“std::vector<_Ty> *”转换为“const std::vector<_Ty>”
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>e:\summary\code\leetcode\dp9_01\dp9_01\source.cpp(29): error C2660: “Solution::findMinCost”: 函数不接受 2 个参数
+     1>e:\summary\code\leetcode\dp9_01\dp9_01\source.cpp(29): error C2780: “const _Ty &std::max(const _Ty &,const _Ty &,_Pr)”: 应输入 3 个参数，却提供了 2 个
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2038) : 参见“std::max”的声明
+     1>已完成生成项目“E:\Summary\Code\Leetcode\DP9_01\DP9_01\DP9_01.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.71

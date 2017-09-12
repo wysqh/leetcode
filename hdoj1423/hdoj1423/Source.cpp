@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<algorithm>
 #include<string.h>
+#include <iostream>
+#include <set>
 using namespace std;
 struct node{
    int sum;
@@ -8,7 +10,13 @@ struct node{
 }n1[505];
 int main()
 {
-    int c,n,a[505],b[505],m,k,z,max1,i,j;
+	multiset<int> ds;
+	ds.insert(4);
+	ds.insert(2);
+	ds.insert(2);
+	for (const auto&e: ds)
+		cout << &e << endl;
+   /* int c,n,a[505],b[505],m,k,z,max1,i,j;
     scanf("%d",&c);
     while(c--)
     {
@@ -41,5 +49,5 @@ int main()
         printf("%d\n",max1);
         if(c)
             putchar(10);
-    }
+    }*/
 }

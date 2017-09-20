@@ -1,5 +1,6 @@
 #include <iostream>
 #include <algorithm>
+#include <queue>
 using namespace std;
 
 //Mondriaan's Dream
@@ -29,6 +30,7 @@ bool ok(int t)
 
 int main()
 {
+	bool a = false;
     while(scanf("%d %d", &h, &w) != EOF && (w + h))
     {
         if((h * w) & 1) //面积为奇数不可能拼成，因为一个单位面积就为偶数了
@@ -46,3 +48,37 @@ int main()
         printf("%lld\n", dp[h][0]);
     }
 }
+
+#include <string>
+using namespace std;
+class Solution
+{
+public:
+	string multiply(string num1, string num2)
+	{
+		string res(num1.size()+num2.size(), '0');
+		
+		for (int i = num1.size() - 1; i >= 0; i--)
+		{
+			int carry = 0;
+			for (int j = num2.size() - 1; j >= 0; j--)
+			{
+				int tmp = (res[i+j+1] - '0') + (num1[i]-'0')*(num2[j]-'0')+carry;
+				res[i+j+1] = tmp % 10 + '0';
+				carry = tmp / 10;
+			}
+			res[i] += carry;
+		}
+
+		size_t startpos = res.find_last_not_of("0");
+		if (string::npos != startpos)
+			return res.substr(startpos);
+		long double a;
+		return "0";
+	}
+};
+
+
+
+
+

@@ -12,7 +12,6 @@ public:
 	vector<double> res;
 
     vector<double> calcEquation(vector<pair<string, string>> equations, vector<double>& values, vector<pair<string, string>> queries) {
-		
 		for (int i = 0; i < equations.size(); ++i)
 		{
 			graph[equations[i].first][equations[i].second] = values[i];
